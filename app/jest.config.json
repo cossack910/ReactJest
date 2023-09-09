@@ -7,5 +7,6 @@
   "transform": {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
-  "testEnvironment": "jsdom"
+  "testEnvironment": "jsdom",
+  "verbose": true
 }

@@ -1,5 +1,11 @@
 # ReactJest
 
+## テスト実行
+
+```
+docker exec -it reactjest npm run test
+```
+
 ## 開発サーバー立ち上げ時
 
 ```
@@ -7,6 +13,7 @@ docker exec -it reactjest npm run dev
 ```
 
 ## React Testing Library + JEST 環境構築
+
 JEST https://github.com/cossack910/ReactJest/issues/1
 <br>
 React Testing Library https://github.com/cossack910/ReactJest/issues/2

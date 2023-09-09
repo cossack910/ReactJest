@@ -8,7 +8,7 @@ export const Render: React.FC = () => {
       <button>Click1</button>
       <button>Click2</button>
       <p>Udemy</p>
-      <span>@React</span>
+      <span data-testId="test20230909">@React</span>
     </div>
   );
 };

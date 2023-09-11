@@ -1,12 +1,12 @@
-import React from "react";
+import { useState, FC, ChangeEvent } from "react";
 
 type Props = {
   outputConsole: (input: string) => void;
 };
 
-const RenderInput: React.FC<Props> = (props) => {
+const RenderInput: FC<Props> = (props) => {
   const { outputConsole } = props;
-  const [input, setInput] = React.useState("");
+  const [input, setInput] = useState("");
 
   const outputValue = () => {
     if (input) {
@@ -14,7 +14,7 @@ const RenderInput: React.FC<Props> = (props) => {
     }
   };
 
-  const updateValue = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const updateValue = (e: ChangeEvent<HTMLInputElement>) => {
     if (!(e.currentTarget instanceof HTMLInputElement)) {
       return;
     }

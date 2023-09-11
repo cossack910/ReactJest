@@ -1,6 +1,6 @@
-import React from "react";
+import { FC } from "react";
 
-export const Render: React.FC = () => {
+export const Render: FC = () => {
   return (
     <div>
       <h1>React Testting Library Lesson</h1>
@@ -8,7 +8,7 @@ export const Render: React.FC = () => {
       <button>Click1</button>
       <button>Click2</button>
       <p>Udemy</p>
-      <span data-testId="test20230909">@React</span>
+      <span data-testid="test20230909">@React</span>
     </div>
   );
 };

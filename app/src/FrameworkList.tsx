@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 type Props = {
-  frameworks: Array<{ id: number; item: string }>;
+  frameworks?: Array<{ id: number; item: string }>;
 };
 
 const FrameworkList: FC<Props> = (props) => {

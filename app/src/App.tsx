@@ -1,6 +1,8 @@
 import "./App.css";
 import RenderInput from "./RenderInput";
 import FrameworkList from "./FrameworkList";
+import UseEffectRender from "./UseEffectRender";
+import MockServer from "./MockServer";
 
 function App() {
   const data = [
@@ -21,6 +23,8 @@ function App() {
     <>
       <RenderInput outputConsole={console.log} />
       <FrameworkList frameworks={data} />
+      <UseEffectRender />
+      <MockServer />
     </>
   );
 }

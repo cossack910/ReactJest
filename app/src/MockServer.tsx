@@ -26,7 +26,7 @@ const MockServer: FC = () => {
         {buttonText}
       </button>
       {username && <h3>{username}</h3>}
-      {error && <p data-testd="error">{error}</p>}
+      {error && <p data-testid="error">{error}</p>}
     </div>
   );
 };

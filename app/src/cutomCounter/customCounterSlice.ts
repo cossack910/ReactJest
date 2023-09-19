@@ -46,10 +46,10 @@ const customCounterSlice = createSlice({
           state.value += 1;
           break;
         case 1:
-          state.mode += 100;
+          state.value += 100;
           break;
         case 2:
-          state.mode += 10000;
+          state.value += 10000;
           break;
         default:
           break;
@@ -64,10 +64,10 @@ const customCounterSlice = createSlice({
           state.value += action.payload;
           break;
         case 1:
-          state.mode += 100 * action.payload;
+          state.value += 100 * action.payload;
           break;
         case 2:
-          state.mode += 10000 * action.payload;
+          state.value += 10000 * action.payload;
           break;
         default:
           break;

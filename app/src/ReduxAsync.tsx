@@ -1,4 +1,3 @@
-import React from "react";
 import { useSelector } from "react-redux";
 import { selectCount, fetchDummy } from "./cutomCounter/customCounterSlice";
 import { useAppDispatch } from "./cutomCounter/store";

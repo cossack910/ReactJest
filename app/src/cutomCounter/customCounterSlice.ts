@@ -9,7 +9,7 @@ const sleep = (msec: number) => {
 
 export const fetchDummy = createAsyncThunk<number, number>(
   "fetch/dummy",
-  async (num: number) => {
+  async (num) => {
     await sleep(2000);
     if (!num) {
       throw new Error("エラーメッセージ");

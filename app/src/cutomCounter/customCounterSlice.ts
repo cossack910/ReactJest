@@ -84,7 +84,7 @@ const customCounterSlice = createSlice({
     builder.addCase(fetchJSON.fulfilled, (state, action) => {
       state.username = action.payload;
     });
-    builder.addCase(fetchJSON.rejected, (state, action) => {
+    builder.addCase(fetchJSON.rejected, (state) => {
       state.username = "anonymous";
     });
   },
